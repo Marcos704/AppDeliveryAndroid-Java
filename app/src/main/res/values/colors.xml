@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D8292828</color>
+    <color name="colorPrimaryDark">#E6020202</color>
+    <color name="notification">#B3090909</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="bordar">#F0504F4F</color>
+    <color name="bordarPainel">#594A4848</color>
+    <color name="botaos">#A64A4848</color>
+    <color name="coresDarkes">#C64A4848</color>
+    <color name="corCaixaText">#FFFF</color>
+    <color name="corTextoAlpha">#FF7700</color>
+    <color name="corBotao">#F16406</color>
+    <color name="corFocus">#D2DD600D</color>
+    <color name="corFont">#DFDCDC</color>
+    <color name="corRealce">#B6B6B6</color>
+    <color name="corErro">#DDFF7A14</color>
+    <color name="corBTMostrar">#00FFFFFF</color>
+    <color name="corCaixaInicial">#B4474545</color>
+    <color name="corTelas">#E6FF0303</color>
+    <color name="corTelaCenter">#FCB10202</color>
+    <color name="corTelaFinal">#F0AE0303</color>
+    <color name="corCaixaLinear">#E4910303</color>
+
+
+</resources>

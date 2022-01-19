@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cabecalho"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:background="@drawable/plano_fundo_final"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="97dp"
+        android:contentDescription="@string/nav_header_desc"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:scaleType="fitStart"
+        app:srcCompat="@drawable/logoanomades" />
+
+    <TextView
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cor_linear_telas"
+        android:fontFamily="@font/veterantypewriter"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:text="@string/n_mades_pizzaria"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textNomeUsuarioCabecalho"
+        android:layout_width="147dp"
+        android:layout_height="47dp"
+        android:background="@drawable/cor_linear_telas"
+        android:fontFamily="@font/text_fonts"
+        android:text="@string/contatos_n_98_3224_1779_n_98_98830_0475"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textSenhaUsuarioCabecalho"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:fontFamily="@font/text_fonts"
+        android:text="@string/www_engcria_com_br" />
+
+
+</LinearLayout>

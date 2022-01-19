@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/menuinicial">
+
+    <fragment
+        android:id="@+id/menuinicial"
+        android:name="com.engcria.nomadesmobileapp.ui.home.HomeFragment"
+        android:label="@string/menu_inicial"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_menuinicial_to_perfil"
+            app:destination="@id/nav_home_second" />
+    </fragment>
+    <fragment
+        android:id="@+id/perfil"
+        android:name="com.engcria.nomadesmobileapp.perfil.PerfilFragment"
+        android:label="@string/meus_dados"
+        tools:layout="@layout/fragment_perfil">
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_home_second"
+        android:name="com.engcria.nomadesmobileapp.ui.home.HomeFragment"
+        android:label="@string/home_second"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_HomeSecondFragment_to_HomeFragment"
+            app:destination="@id/menuinicial" />
+
+        <argument
+            android:name="myArg"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/pedidos"
+        android:name="com.engcria.nomadesmobileapp.meupedidos.MeusPedidosFragment"
+        android:label="@string/meus_pedidos"
+        tools:layout="@layout/fragment_meus_pedidos"
+        >
+    </fragment>
+
+    <fragment
+        android:id="@+id/historico"
+        android:name="com.engcria.nomadesmobileapp.historico.HistoricoFragment"
+        android:label="@string/hist_rico"
+        tools:layout="@layout/fragment_historico"
+        >
+    </fragment>
+
+    <fragment
+        android:id="@+id/Hamburger"
+        android:name="com.engcria.nomadesmobileapp.hamburge.HamburgesFragment"
+        android:label="@string/hamb_rgueres"
+        tools:layout="@layout/fragment_hamburges"
+        >
+    </fragment>
+    <fragment
+        android:id="@+id/Espaguetes"
+        android:name="com.engcria.nomadesmobileapp.espaguetes.EspaguetesFragment"
+        android:label="@string/espaguetes"
+        tools:layout="@layout/fragment_espaguetes"
+        >
+    </fragment>
+    <fragment
+        android:id="@+id/Pizzas"
+        android:name="com.engcria.nomadesmobileapp.pizzas.PizzasFragment"
+        android:label="@string/pizzas"
+        tools:layout="@layout/fragment_pizzas"
+        >
+    </fragment>
+    <fragment
+        android:id="@+id/PizzasEspeciais"
+        android:name="com.engcria.nomadesmobileapp.pizzasespeciais.PizzasespeciaisFragment"
+        android:label="@string/pizzas_especiais"
+        tools:layout="@layout/fragment_pizzasespeciais"
+        >
+    </fragment>
+    <fragment
+        android:id="@+id/configuracoes"
+        android:name="com.engcria.nomadesmobileapp.configuracoes.ConfiguracoesFragment"
+        android:label="@string/configura_es"
+        tools:layout="@layout/fragment_configuracoes"
+        >
+    </fragment>
+    <fragment
+        android:id="@+id/chat"
+        android:name="com.engcria.nomadesmobileapp.chat.ChatFragment"
+        android:label="@string/chat"
+        tools:layout="@layout/fragment_chat">
+    </fragment>
+
+</navigation>

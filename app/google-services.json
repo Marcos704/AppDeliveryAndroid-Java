@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "407397916066",
+    "firebase_url": "https://banconomadesbetafinal.firebaseio.com",
+    "project_id": "banconomadesbetafinal",
+    "storage_bucket": "banconomadesbetafinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:407397916066:android:b805555e25d1fafac166fb",
+        "android_client_info": {
+          "package_name": "com.engcria.nomadesmobileapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "407397916066-5nd1mp6k5avumm0jvdlnba8pkintrrou.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.engcria.nomadesmobileapp",
+            "certificate_hash": "421498649b7e89991ea8da715f43bff2385857ad"
+          }
+        },
+        {
+          "client_id": "407397916066-3cmjela2er554i5cprecd41bliq365n8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjrXIlPZE4dsZtX4fWNOWDLSgzJtKEJMk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "407397916066-3cmjela2er554i5cprecd41bliq365n8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
